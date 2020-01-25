@@ -15,6 +15,10 @@ module.exports = function(api) {
     )
   }
 
+  if(true){
+    console.log('Hello World');
+  }
+
   return {
     presets: [
       isTestEnv && [
